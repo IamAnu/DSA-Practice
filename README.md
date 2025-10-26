@@ -39,7 +39,3 @@ Feel free to contribute by:
 2. Improving existing implementations
 3. Adding test cases
 4. Enhancing documentation
-
-## License
-
-This project is open source and available under the MIT License.
