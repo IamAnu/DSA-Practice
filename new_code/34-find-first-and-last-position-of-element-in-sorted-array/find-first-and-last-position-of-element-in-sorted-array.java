@@ -31,3 +31,7 @@ class Solution {
 
     }
 }
+
+
+
+//  Done by my self but it's not a perfect solution. try using sorting.
