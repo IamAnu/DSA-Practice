@@ -2,15 +2,13 @@ class Solution {
     public int[] twoSum(int[] arr, int target) {
 
         Map<Integer, Integer> map = new HashMap<>();
-        int i2 = 0;
-        for(int i=0;i<arr.length;i++){
-            map.put(arr[i], i);
-        }
         for(int i=0;i<arr.length;i++){
             int diff = target-arr[i];
-            if(map.containsKey(diff) && map.get(diff)!=i){
-                return new int[]{i, map.get(diff)};
+            if(map.containsKey(diff)){
+                return new int[]{map.get(diff), i};
             }
+            else
+            map.put(arr[i], i);
         }
         return new int[]{};
        
@@ -18,4 +16,4 @@ class Solution {
 
     }
 }
-// done it by own 
+// done it by own, previous solution I was using 2 loop but later I saw that one loop is enough fot the solution.
