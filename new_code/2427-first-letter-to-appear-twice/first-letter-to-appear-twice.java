@@ -12,3 +12,5 @@ class Solution {
     return '0';
     }
 }
+
+// solve it without hint just use hasmap.
